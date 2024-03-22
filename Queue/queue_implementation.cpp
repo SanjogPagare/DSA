@@ -11,10 +11,10 @@ class Queue{
     int rear;
 
 
-    Queue(){
-        front=-1;
-        rear=-1;
-    }
+    // Queue(){
+    //     front=-1;
+    //     rear=-1;
+    // }
     Queue(int size){
         arr = new int[size];
         this->size=size;
